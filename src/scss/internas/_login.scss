@@ -1,0 +1,11 @@
+.divPass {
+    position: relative;
+}
+
+.togglePass {
+    position: absolute;
+    top: 70%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }

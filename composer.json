@@ -1,0 +1,24 @@
+{
+    "name": "fertho92/bienesraices_crg",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./Models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./Controllers",
+            "Views\\" : "./Views",
+            "Fertho92\\BienesraicesCrg\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "CristhoferRG",
+            "email": "cristhofer.rg06@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.5",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

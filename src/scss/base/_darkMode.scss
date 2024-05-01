@@ -1,0 +1,79 @@
+.dark-mode {
+    background-color: darken($grisOscuro, 10);
+
+    p {
+        color: $blanco;
+    }
+
+    a,h1,h2,h3,h4 {
+        color: $gris;
+    }
+
+    .contenido-centrado {
+        h1 {
+            color: rgb(206, 169, 6);;
+        }
+    }
+
+    .anuncio,
+    .resumen-propiedad {
+        background-color: $grisOscuro;
+
+        .precio {
+            color: rgb(89, 145, 4);
+        }
+
+        .icono {
+            filter: invert(100%);
+        }
+
+        h3 {
+            color: rgb(206, 169, 6);
+        }
+        
+    }
+
+    .texto-nosotros blockquote {
+        color: $blanco;
+    }
+
+    .formulario {
+        label, legend, p {
+            color: $gris;
+        }
+
+        input:not([type="submit"]),
+        textarea,
+        select {
+            background-color: grey;
+            border: 1px solid $grisOscuro;
+            color: $blanco;
+        }
+        
+        ::placeholder {
+            color: beige;
+        }
+
+    }
+
+    .informacion-meta {
+        span {
+            color: $verde;
+        }
+    
+        .spandate {
+            color: rgb(141, 2, 44);
+            font-weight:bolder;
+        }
+    }
+
+    table.propiedades {
+        tbody {
+            td {
+                color: beige;
+                border-bottom: 3px solid #682f2f;
+               
+            }
+        }
+    }
+}

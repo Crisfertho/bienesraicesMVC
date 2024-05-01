@@ -1,0 +1,24 @@
+.contenido-nosotros {
+   @include tablet { //para hacer 2 columnas
+    @include grid(2, 2rem);
+   } 
+}
+
+.imagen img.roundimg {
+    border-radius: 9%; /* Hace que la imagen tenga bordes redondos */
+    display: block;
+    width: 100%; /* Ajusta el tamaño de la imagen para que llene el contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+}
+
+.texto-nosotros blockquote {
+    font-weight: $black;
+    font-size: 2.4rem;
+    margin: auto;
+    padding-left: 1rem 0 3rem 0;
+
+}
+
+.texto-nosotros p {
+    margin: 0;
+}

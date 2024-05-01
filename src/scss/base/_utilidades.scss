@@ -1,0 +1,48 @@
+.seccion {
+    margin-top: 1rem;
+    margin-bottom: calc($separacion / 2);
+
+    h1, h2 {
+        font-family: $fuente_secundaria;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+.contenido-centrado {
+    max-width: 800px;
+
+    h1 {
+        font-weight: bolder;
+        color: rgb(5, 54, 77);
+        font-family: $fuente_secundaria;
+        //font-weight: 400;
+        font-style: normal;
+    }
+     img.roundimg {
+        border-radius: 4%; /* Hace que la imagen tenga bordes redondos */
+        display: block;
+        width: 100%; /* Ajusta el tamaño de la imagen para que llene el contenedor */
+        height: auto; /* Mantiene la relación de aspecto */
+    }
+}
+
+.resumen-propiedad {
+  padding: 0rem 1rem 0.3rem 2rem;
+  margin-top: 2.3rem;
+  background-color: rgb(243, 243, 233);
+  border-style: dashed;
+  border-color: rgb(0, 107, 121);
+  border-radius: 3rem;
+
+
+}
+
+.alinear_derecha {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contactoB {
+    display: flex;
+    justify-content: space-between;
+}
