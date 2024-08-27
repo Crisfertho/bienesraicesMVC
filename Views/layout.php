@@ -27,7 +27,7 @@
     <header class="header <?php echo $inicio ? 'inicio' : ''; ?>"> <!--si la variable de inicio es true que la agregue si no, no agregue nada-->
         <div class="contenedor-header contenedor">
             <div class="barra">
-                <a href="/index.php"> <!--"/"Siempre me lleva a la pagina principal -->
+                <a href="/"> <!--"/"Siempre me lleva a la pagina principal -->
                   <p> <span>BienesRaices </span> Guanacaste</p> 
                   <!--  <img src="/build/img/logo.svg" alt="Logotipo"> -->
                 </a>

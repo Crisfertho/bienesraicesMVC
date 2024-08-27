@@ -22,7 +22,7 @@
     <section class="imagen_contacto">
         <h2>Encuentra la casa de tus sueños</h2>
         <p>Llena el formulario para ponernos en contacto contigo. Gracias</p>
-        <a href="contacto.php" class="boton_amarillo"> Contactános</a>
+        <a href="/contacto" class="boton_amarillo"> Contactános</a>
     </section>
 
     <div class="contenedor seccion seccion-inferior">
@@ -39,7 +39,7 @@
                 </div>
 
                 <div class="texto-entrada">
-                    <a href="entrada.html">
+                    <a href="/entrada">
                         <h4>Terraza en tu Casa de Lujo</h4>
                         <p class="informacion-meta">Escrito el: <span class="spandate">17/1/2024</span> por: <span>Admin</span></p>
                         <p>
@@ -60,7 +60,7 @@
                 </div>
 
                 <div class="texto-entrada">
-                    <a href="entrada.php">
+                    <a href="/entrada2">
                         <h4>Casa con piscina y vista increibles</h4>
                         <p class="informacion-meta">Escrito el: <span class="spandate">17/1/2024</span> por: <span>Admin</span></p>
                         <p>

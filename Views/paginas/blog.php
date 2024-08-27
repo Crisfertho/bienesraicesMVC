@@ -33,7 +33,7 @@
             </div>
 
             <div class="texto-entrada">
-                <a href="/entrada">
+                <a href="entrada2">
                     <h4>Casa con piscina y vista increibles</h4>
                     <p class="informacion-meta">Escrito el: <span>17/1/2024</span> por: <span>Admin</span></p>
                     <p>
@@ -54,8 +54,8 @@
             </div>
 
             <div class="texto-entrada">
-                <a href="/entrada">
-                    <h4>Terraza en tu Casa de Lujo</h4>
+                <a href="/entrada3">
+                    <h4>Casa de Lujo frente al mar</h4>
                     <p class="informacion-meta">Escrito el: <span>17/1/2024</span> por: <span>Admin</span></p>
                     <p>
                         Consejos para construir una terraza en tu casa conlos mejores materiales y ahorro de 
@@ -75,8 +75,8 @@
             </div>
 
             <div class="texto-entrada">
-                <a href="/entrada">
-                    <h4>Casa con piscina y vista increibles</h4>
+                <a href="/entrada4">
+                    <h4>Casa con un lago increible</h4>
                     <p class="informacion-meta">Escrito el: <span>17/1/2024</span> por: <span>Admin</span></p>
                     <p>
                          Maximiza el espacio en tu hoGAR NADHDN JASDJAHN askjhbojdskbnj asjkdibau
@@ -86,7 +86,7 @@
             </div>
         </article>
         <div class="alinear_derecha">
-        <a href="/index.php" class="boton_verde">VOLVER
+        <a href="/" class="boton_verde">VOLVER
         
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-back-up-double" width="28" height="28" viewBox="0 -9 25 25" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>

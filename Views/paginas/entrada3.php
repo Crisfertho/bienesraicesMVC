@@ -1,11 +1,11 @@
 <main class="contenedor seccion contenido-centrado">
     <a href="/blog" class="boton boton_verde">VOLVER</a>
-        <h1>Terraza en tu casa de Lujo</h1>
+        <h1>Casa de Lujo frente al mar</h1>
 
         <picture>
-            <source srcset="build/img/ia1.webp" type="image/webp">
-            <source srcset="build/img/ia1.jpg" type="image/jpeg">
-            <img loading="lazy" src="build/img/ia1.jpg" alt="Imagen de la propiedad">
+            <source srcset="build/img/ia3.webp" type="image/webp">
+            <source srcset="build/img/ia3.jpg" type="image/jpeg">
+            <img loading="lazy" src="build/img/ia3.jpg" alt="Imagen de la propiedad">
         </picture>
 
         <p class="informacion-meta">Escrito el: <span>17/1/2024</span> por: <span>Admin</span></p>

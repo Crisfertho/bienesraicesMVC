@@ -31,6 +31,9 @@ $router->get('/propiedades', [PageControllers::class, 'propiedades']);
 $router->get('/propiedad', [PageControllers::class, 'propiedad']);
 $router->get('/blog', [PageControllers::class, 'blog']);
 $router->get('/entrada', [PageControllers::class, 'entrada']);
+$router->get('/entrada2', [PageControllers::class, 'entrada2']);
+$router->get('/entrada3', [PageControllers::class, 'entrada3']);
+$router->get('/entrada4', [PageControllers::class, 'entrada4']);
 $router->get('/contacto', [PageControllers::class, 'contacto']);
 $router->post('/contacto', [PageControllers::class, 'contacto']);
 

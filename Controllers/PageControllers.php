@@ -41,6 +41,18 @@ class PageControllers  {
 
         $router->view('paginas/entrada');
     }
+    public static function entrada2(Router $router) {
+
+        $router->view('paginas/entrada2');
+    }
+    public static function entrada3(Router $router) {
+
+        $router->view('paginas/entrada3');
+    }
+    public static function entrada4(Router $router) {
+
+        $router->view('paginas/entrada4');
+    }
     public static function contacto(Router $router) {
 
         $mensaje=null;
