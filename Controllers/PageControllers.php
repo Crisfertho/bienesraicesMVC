@@ -66,13 +66,12 @@ class PageControllers  {
 
              //Crear nuevo objeto
             $mail = new PHPMailer();
-
             $mail->isSMTP();
-            $mail->Host = 'sandbox.smtp.mailtrap.io';
+            $mail->Host = $_ENV['MAIL_HOST'];
             $mail->SMTPAuth = true;
-            $mail->Port = 2525;
-            $mail->Username = 'eebaad7be8a32b';
-            $mail->Password = 'd22dbf373dca9a';
+            $mail->Port = $_ENV['MAIL_PORT'];
+            $mail->Username = $_ENV['MAIL_USER'];
+            $mail->Password = $_ENV['MAIL_PASS'];
     
             //configurar contenido del mail
             $mail->setFrom('admin@bienesraicescrg.com');//Quien envia el email
